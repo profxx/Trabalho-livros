@@ -1,6 +1,6 @@
-###Entrega-de-comida
+Entrega-de-comida
 
-#Participantes:
+Participantes:
 - Ewerton
 - Maria Luz
 - Théo
