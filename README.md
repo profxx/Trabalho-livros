@@ -3,6 +3,7 @@ Entrega-de-comida
 Participantes:
 - Ewerton
 - Maria Luz
+- Mariane
 - Théo
 
 
@@ -11,4 +12,3 @@ O que será feito:
 - Os métodos de pagamento serão dinheiro e cartão (Crédito e débito).
 
 Quem fará cada parte:
-- Ainda não decidimos.
