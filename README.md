@@ -4,7 +4,7 @@ Participantes:
 - Ewerton
 - Maria Luz
 - Mariane
-- Théo
+- Théo: https://github.com/theocoutinho
 
 
 O que será feito:
