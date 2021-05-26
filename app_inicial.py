@@ -1,5 +1,4 @@
 from tkinter import *
-import app_login
 
 class App():
     # Cores
@@ -22,22 +21,37 @@ class App():
         self.root.resizable(False, False)
     
     def widgets(self):
+        # Texto
         Label(
             self.root,
-            text = "Nome do App",
+            text = "App de comida",
             background = self.cor_3,
             foreground = self.cor_1,
             font = ("Verdana", 20)
         ).place(
             relheight = 0.10,
-            relwidth = 0.50,
-            relx = 0.25,
-            rely = 0.30
+            relwidth = 0.52,
+            relx = 0.24,
+            rely = 0.20
         )
 
-        self.botao_telaLogin = Button(
+        Label(
             self.root,
-            text = "Ir para tela de login",
+            text = "Faça o login ou registre-se",
+            background = self.cor_3,
+            foreground = self.cor_1,
+            font = ("Verdana", 14)
+        ).place(
+            relheight = 0.10,
+            relwidth = 0.80,
+            relx = 0.10,
+            rely = 0.75
+        )
+
+        # Botões
+        self.botao_login = Button(
+            self.root,
+            text = "Login",
             background = self.cor_1,
             activebackground = self.cor_1,
             foreground = self.cor_4,
@@ -45,12 +59,39 @@ class App():
             font = ("Verdana", 12),
             relief = FLAT
         )
-        self.botao_telaLogin.place(
+        self.botao_login.place(
             relheight = 0.06,
-            relwidth = 0.50,
-            relx = 0.25,
+            relwidth = 0.38,
+            relx = 0.10,
             rely = 0.84
         )
+
+        self.botao_registrar = Button(
+            self.root,
+            text = "Registrar",
+            background = self.cor_1,
+            activebackground = self.cor_1,
+            foreground = self.cor_4,
+            activeforeground = self.cor_4,
+            font = ("Verdana", 12),
+            relief = FLAT
+        )
+        self.botao_registrar.place(
+            relheight = 0.06,
+            relwidth = 0.38,
+            relx = 0.52,
+            rely = 0.84
+        )
+
+        self.imagem = PhotoImage(file = "imagem.png")
+        self.image = Label(self.root, image = self.imagem, background = self.cor_1)
+        self.image.place(
+            relheight =0.31,
+            relwidth =0.52,
+            relx =0.24,
+            rely = 0.34
+        )
+
 
 # Programa Principal
 root = Tk()
