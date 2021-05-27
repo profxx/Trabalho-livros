@@ -1,4 +1,4 @@
-Entrega-de-comida
+App de livros
 
 Participantes:
 - Ewerton
@@ -7,8 +7,6 @@ Participantes:
 - Théo: https://github.com/theocoutinho
 
 
-O que será feito:
-- Pretentemos criar um APP de entraga de comidas (fast food).
-- Os métodos de pagamento serão dinheiro e cartão (Crédito e débito).
-
-Quem fará cada parte:
+EMMT: App de livros
+Um app para facilitar sua busca por livros, podendo fazer uma pesquisa por gêneros.
+Caso você já utilize o app ele irá te recomendar mais livros de acordo com a sua coleção.
